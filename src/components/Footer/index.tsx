@@ -18,7 +18,7 @@ export default function Footer() {
         <form className='w-[560px] h-full flex flex-col gap-2 '>
           <span className='font-bold text-[#464646]'>Fale Conosco</span>
           <input className='h-14 rounded shadow outline-none' />
-          <input className='h-20 rounded shadow outline-none' />
+          <textarea className='h-20 rounded shadow outline-none p-1' />
           <div>
             <Button type='submit' Text='Enviar mensagem' />
           </div>
