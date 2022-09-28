@@ -5,7 +5,11 @@ module.exports = {
     './index.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero': "url('src/assets/Hero.png')"
+    },
   },
   plugins: [],
+  }
 }
