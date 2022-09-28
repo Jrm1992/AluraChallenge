@@ -3,6 +3,11 @@ import Button from '../Button'
 import Logo from '../Logo/logo'
 
 export default function Footer() {
+
+  function handleSubmit(e: any){
+    e.peventDefault()
+  }
+
   return (
     <div className='w-ful h-[470px] flex flex-col'>
       <div className='w-full h-[368px] bg-[#EAF2FD] flex flex-row justify-between py-16 px-40 '>
@@ -15,10 +20,10 @@ export default function Footer() {
           <a>Quero ser franqueado</a>
           <a>Anuncie aqui</a>
         </div>
-        <form className='w-[560px] h-full flex flex-col gap-2 '>
+        <form onSubmit={() => handleSubmit(event)} className='w-[560px] h-full flex flex-col gap-2 '>
           <span className='font-bold text-[#464646]'>Fale Conosco</span>
-          <input className='h-14 rounded shadow outline-none' />
-          <textarea className='h-20 rounded shadow outline-none p-1' />
+          <input className='h-14 rounded shadow outline-none placeholder:absolute placeholder:m-1' placeholder='Nome' />
+          <textarea className='h-20 rounded shadow outline-none p-1' placeholder='Escreva sua mensagem' />
           <div>
             <Button type='submit' Text='Enviar mensagem' />
           </div>
