@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Produto XYZ",
+    "image": "src/assets/StarWars1.png",
+    "price": 60
+  },
+  {
+    "name": "Produto XYZ",
+    "image": "src/assets/StarWars2.png",
+    "price": 60
+  },
+  {
+    "name": "Produto XYZ",
+    "image": "src/assets/StarWars3.png",
+    "price": 60
+  },
+  {
+    "name": "Produto XYZ",
+    "image": "src/assets/StarWars4.png",
+    "price": 60
+  },
+  {
+    "name": "Produto XYZ",
+    "image": "src/assets/StarWars5.png",
+    "price": 60
+  },
+  {
+    "name": "Produto XYZ",
+    "image": "src/assets/StarWars6.png",
+    "price": 60
+  }
+]

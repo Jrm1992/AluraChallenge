@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Console XYZ",
+    "image": "src/assets/Consoles1.png",
+    "price": 60
+  },
+  {
+    "name": "Console XYZ",
+    "image": "src/assets/Consoles2.png",
+    "price": 60
+  },
+  {
+    "name": "Console XYZ",
+    "image": "src/assets/Consoles3.png",
+    "price": 60
+  },
+  {
+    "name": "Console XYZ",
+    "image": "src/assets/Consoles4.png",
+    "price": 60
+  },
+  {
+    "name": "Console XYZ",
+    "image": "src/assets/Consoles5.png",
+    "price": 60
+  },
+  {
+    "name": "Console XYZ",
+    "image": "src/assets/Consoles6.png",
+    "price": 60
+  }
+]
