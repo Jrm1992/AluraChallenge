@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <>
-        <Header />
+        <Header Login={true} />
         <Banner />
         <Products Items={StarWars} Title="Star Wars" />
         <Products Items={Consoles} Title="Consoles" />

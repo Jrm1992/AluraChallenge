@@ -9,7 +9,7 @@ export default function Footer() {
   }
 
   return (
-    <div className='w-ful h-[470px] flex flex-col mt-16'>
+    <div className='w-ful h-[470px] flex flex-col'>
       <div className='w-full h-[368px] bg-[#EAF2FD] flex flex-row justify-between py-16 px-40 '>
         <Logo />
         <div className='w-48 h-full justify-between flex flex-col'>
