@@ -7,10 +7,10 @@ import Login from "../Pages/Login";
 export function Router(){
   return(
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/produtos" element={<AllItems />} />
-      <Route path="/additem" element={<AddItemForm />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/produtos" element={<AllItems />} />
+        <Route path="/additem" element={<AddItemForm />} />
     </Routes>
   )
 }
