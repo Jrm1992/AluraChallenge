@@ -1,11 +1,11 @@
-import { createContext, Dispatch, SetStateAction, useState } from "react";
+import { createContext, Dispatch, ReactNode, SetStateAction, useState } from "react";
 
 export interface LoginContext {
   user: string
-  setUser?: Dispatch<SetStateAction<string>>
+  setUser: Dispatch<SetStateAction<string>>
   password: string
-  setPassword?: Dispatch<SetStateAction<string>>
-  isLogged: boolean
+  setPassword: Dispatch<SetStateAction<string>>
+  isLogged?: boolean
 }
 
 let Data = {
@@ -16,7 +16,7 @@ let Data = {
 
 export const LoginContext = createContext<LoginContext>(Data)
 
-export const LoginProvider = ({children}) => {
+export const LoginProvider = ({children}: ReactNode) => {
   
   const [user, setUser] = useState('')
   const [password, setPassword] = useState('')
